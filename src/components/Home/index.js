@@ -10,7 +10,7 @@ const Home = () => {
     //persons name spelt out letter by letter
     const nameArray = ['h', 'o', 'm', 'a', 's', ' ', 'T', 'h', 'u', 'r', 's', 't', 'o', 'n']
     //programmer spelt out letter by letter in a constant array called jobArray
-    const jobArray = ['P', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'e', 'r', '.']
+    const jobArray = ['A',' ','P', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'e', 'r', '.']
 
     return (
         <div className="container home-page">
