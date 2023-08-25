@@ -6,7 +6,9 @@
     min-width: 10px;
 }
 
-@for $i from 1 through 40 {
+
+//number of letters that are in the welcome message
+@for $i from 1 through 41 {
     .text-animate._#{$i} {
         animation-delay: $i * 0.1s; // Use multiplication for delay
     }
