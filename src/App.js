@@ -10,7 +10,7 @@ function App() {
 
     useEffect(() => {
         const checkWindowSize = () => {
-            const minWidth = 669;
+            const minWidth = 691;
             if (window.innerWidth < minWidth) {
                 setIsSizeWarningVisible(true);
             } else {
