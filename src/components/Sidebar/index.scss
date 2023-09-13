@@ -96,6 +96,12 @@
             }
         }
 
+        a.tutor-link{
+            &::after{
+                content: "Tutoring";
+            }
+        }
+
         a.active{
             svg{
                 color: #ffd700;
