@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faCode, faChalkboardUser } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className="nav-bar">
@@ -58,14 +58,19 @@ const Sidebar = () => (
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel='norefferer' href="https://www.linkedin.com/in/tom-thurston">
+                <a target="_blank" rel='noopener noreferrer' href="https://www.linkedin.com/in/tom-thurston">
                     <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
                 </a>
             </li>
             
             <li>
-                <a target="_blank" rel='norefferer' href="https://github.com/Tommyt23">
+                <a target="_blank" rel='noopener noreferrer' href="https://github.com/Tommyt23">
                     <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noopener noreferrer' href="https://instagram.com/tommyt_23">
+                    <FontAwesomeIcon icon={faInstagram} color='#4d4d4e'/>
                 </a>
             </li>
         </ul>
