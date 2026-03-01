@@ -29,6 +29,10 @@
           <a href="mailto:tom@ewok.co.uk">tom@ewok.co.uk</a>
         </div>
         <div class="info-row">
+          <i class="fas fa-globe"></i>
+          <a href="https://thomasthurston.work" target="_blank" rel="noopener">thomasthurston.work</a>
+        </div>
+        <div class="info-row">
           <i class="fab fa-github"></i>
           <a href="https://github.com/Tommyt23" target="_blank" rel="noopener">Tommyt23</a>
         </div>

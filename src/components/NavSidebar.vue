@@ -39,6 +39,11 @@
         </a>
       </li>
       <li>
+        <a href="https://instagram.com/tommyt_23" target="_blank" title="Instagram" rel="noopener">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
         <a href="mailto:tom@ewok.co.uk" title="Email">
           <i class="fas fa-at"></i>
         </a>
