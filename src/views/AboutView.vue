@@ -30,7 +30,7 @@
         </div>
         <div class="info-row">
           <i class="fas fa-globe"></i>
-          <a href="https://thomasthurston.work" target="_blank" rel="noopener">thomasthurston.work</a>
+          <a href="https://www.thomasthurston.work" target="_blank" rel="noopener">thomasthurston.work</a>
         </div>
         <div class="info-row">
           <i class="fab fa-github"></i>
