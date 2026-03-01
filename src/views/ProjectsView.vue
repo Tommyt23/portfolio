@@ -47,7 +47,7 @@
 import { ref, computed } from 'vue'
 
 const activeFilter = ref('All')
-const filters = ['All', 'Python', 'JavaScript', 'Java', 'ML/Data']
+const filters = ['All', 'Python', 'JavaScript', 'Java', 'ML/Data', 'C#']
 
 const projects = [
   {
@@ -134,6 +134,14 @@ const projects = [
     url: 'https://github.com/Tommyt23/boolean-coding-week-2024',
     tags: ['JavaScript'],
   },
+  {
+    name: 'NEA',
+    lang: 'C#',
+    desc: 'A-Level NEA project — a custom GAP language implementation, including a lexer, parser, and interpreter built in C#.',
+    url: 'https://github.com/Tommyt23/NEA',
+    stars: 1,
+    tags: ['C#'],
+  },
 ]
 
 const filteredProjects = computed(() => {
@@ -147,6 +155,7 @@ const langBadge = (lang) => {
     JavaScript: 'badge-green',
     Java: 'badge-purple',
     TypeScript: 'badge-green',
+    'C#': 'badge-purple',
   }
   return map[lang] || ''
 }

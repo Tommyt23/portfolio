@@ -59,6 +59,12 @@ const socials = [
     handle: 'trashpanda_2314',
     url: 'https://twitch.tv/trashpanda_2314',
   },
+  {
+    icon: 'fab fa-instagram',
+    label: 'Instagram',
+    handle: '@tommyt_23',
+    url: 'https://instagram.com/tommyt_23',
+  },
 ]
 </script>
 
